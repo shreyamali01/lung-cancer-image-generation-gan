@@ -149,9 +149,3 @@ This project demonstrates the feasibility of using GANs to generate synthetic lu
 - M. Arjovsky et al., *Wasserstein GAN*, arXiv:1701.07875  
 
 ---
-
-## Repository Contents
-- `gan_lung_xray.ipynb` – Training and evaluation notebook  
-- `models/` – Generator and Discriminator definitions  
-- `results/` – Generated images and loss plots  
-- `README.md` – Project documentation
