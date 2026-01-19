@@ -101,8 +101,23 @@ Generates synthetic X-ray images from random noise.
 - Oscillating losses during mid-training reflect healthy adversarial competition
 - Stabilization toward later epochs suggests convergence rather than mode collapse
 
+  ![Loss Curve](results/losses.png)
+
+  ![Score](results/scores.png)
+
 ### Sample Generated Images
+
 - Image quality improves steadily across epochs
+  ![Epoch 1](results/epoch1.png)
+
+  ![Epoch 5](results/epoch5.png)
+
+  ![Epoch 10](results/epoch10.png)
+
+  ![Epoch 20](results/epoch20.png)
+
+  ![Epoch 25](results/epoch25.png)
+  
 - Structural features resemble chest X-rays
 - Minor artifacts remain, typical in GAN training
 
