@@ -108,18 +108,16 @@ Generates synthetic X-ray images from random noise.
 ### Sample Generated Images
 
 - Image quality improves steadily across epochs
+  
   ![Epoch 1](results/epoch1.png)
 
-  ![Epoch 5](results/epoch5.png)
+- Structural features resemble chest X-rays
 
   ![Epoch 10](results/epoch10.png)
-
-  ![Epoch 20](results/epoch20.png)
+  
+- Minor artifacts remain, typical in GAN training
 
   ![Epoch 25](results/epoch25.png)
-  
-- Structural features resemble chest X-rays
-- Minor artifacts remain, typical in GAN training
 
 ---
 
